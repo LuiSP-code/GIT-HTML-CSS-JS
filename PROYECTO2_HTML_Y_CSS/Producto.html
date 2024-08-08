@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronted store</title>
+    
+    <!--Hojas de estilos y normalize -->
+<link rel="stylesheet" href="estilos_y_normalizacion/normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+<link rel="preload" href="estilos_y_normalizacion/normalize.css" as="style">
+<link rel="stylesheet" href="estilos_y_normalizacion/estilos.css">
+
+</head> 
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="imagenes/FrontEndStore_inicio/img/logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <div class="fondo-navegacion">
+        <nav class="navegacion">
+            <a class="navegacion__elemento " href="index.html">Tienda</a>
+            <a class="navegacion__elemento " href="Nosotros.html">Nosotros</a>
+        </nav>
+    </div>
+
+    <main class="contenedor">
+        <h1 class="contenedor__titulo">React JS</h1>
+
+        <section class="compra">
+
+            <img class="compra__imagenes" src="imagenes/FrontEndStore_inicio/img/3.jpg" alt="Imagen de una camisa con el logo de react">
+
+            <div class="descripcion__producto">
+                <p class="descripcion__producto--parrafo">
+                    In diam turpis, ornare id efficitur eget, mollis nec quam. 
+                    Integer in scelerisque augue, quis molestie velit.
+                    Quisque turpis nisi, pellentesque eu maximus eget, ornare 
+                    vel quam. Proin eget metus at velit dapibus vehicula ut non nibh. 
+                    Aenean in maximus odio. Quisque hendrerit porta dolor non rhoncus. 
+                    Praesent ut elit. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc at auctor odio.
+                </p>
+                <form class="producto__informacion">
+                    <select class="producto__talla" type="text" >
+                        <option disabled selected>--Seleccionar talla--</option>
+                        <option>Chico</option>
+                        <option>Mediano</option>
+                        <option>Grande</option>
+                    </select> 
+                    <input class="producto__cantidad" type="number" min="0" max="20">
+                    <input class="boton__agregar" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__parrafo">Prueba de la implementacion de un pie de pagina.</p>
+    </footer>
+</body>
+</html>

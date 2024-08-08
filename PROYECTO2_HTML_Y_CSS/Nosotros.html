@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronted store</title>
+    
+    <!--Hojas de estilos y normalize -->
+<link rel="stylesheet" href="estilos_y_normalizacion/normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+<link rel="preload" href="estilos_y_normalizacion/normalize.css" as="style">
+<link rel="stylesheet" href="estilos_y_normalizacion/estilos.css">
+
+</head> 
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="imagenes/FrontEndStore_inicio/img/logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <div class="fondo-navegacion">
+        <nav class="navegacion">
+            <a class="navegacion__elemento " href="index.html">Tienda</a>
+            <a class="navegacion__elemento navegacion__elemento--activo" href="Nosotros.html">Nosotros</a>
+        </nav>
+    </div>
+
+    <main class="contenedor">
+        <h1 class="contenedor__titulo">sobre nosotros</h1>
+
+        <div class="nosotros">
+            <section class="seccion__left">
+                <p >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    elit. Sed ultrices non arcu sed ornare. 
+                    Nunc rutrum vehicula tristique. 
+                    Pellentesque in faucibus turpis. 
+                    In hac habitasse platea dictumst. 
+                    Etiam efficitur luctus enim. Cras 
+                    nec purus in justo eleifend 
+                    luctus et quis purus. Integer pharetra
+                     lorem eget tristique 
+                    finibus. Praesent vel odio sagittis, 
+                    dapibus leo a, sodales velit. Etiam 
+                    fermentum dictum semper. Donec posuere eleifend
+                    lectus, vel efficitur odio consectetur in.
+                    Ut volutpat efficitur velit eget laoreet.
+                    Donec bibendum quis ligula sagittis condimentum.
+                    Vestibulum nec velit euismod, tincidunt diam 
+                    Quisque vehicula orci a porttitor tincidunt. Nam
+                    vel aliquam augue. Aenean turpis eros, bibendum 
+                    id suscipit nec, maximus ut nulla. Aliquam venenatis
+                    tristique tellus ac dignissim. In hendrerit magna a
+                    dolor ullamcorper, vel ullamcorper orci vulputate. 
+                    Praesent egestas varius nunc nec lacinia. Donec 
+                    commodo, nunc nec tempus dapibus, ipsum lorem congue
+                    ligula, id luctus sem nibh ut enim. Ut eleifend 
+                     nibh ac lectus mattis, id auctor dui condimentum. 
+                    Nullam venenatis rutrum facilisis. Mauris vel 
+                    condimentum tortor, at fringilla sem. Nam ac 
+                    lectus molestie, convallis risus vel, pharetra leo. 
+                </p>
+                <p >
+                    ac, pulvinar risus. Vestibulum ante ipsum primis
+                    in faucibus orci luctus et ultrices posuere cubilia
+                    curae; Sed blandit ultricies dui vel molestie. Ut 
+                    sed consectetur ex. Suspendisse ac cursus orci. Donec
+                    malesuada, velit eget suscipit mattis, mi orci
+                    fringilla urna, non dictum magna neque ac lorem. 
+                    Maecenas mattis scelerisque congue. 
+                    Ut volutpat molestie rhoncus. Duis tempor erat 
+                    malesuada, sollicitudin magna ac, interdum nunc.
+                </p>
+            </section>
+            <img class="seccion__imagen" src="imagenes/FrontEndStore_inicio/img/nosotros.jpg" alt="#">
+        </div>
+
+    </main>
+    
+    <h3 class="contenedor contenedor__titulo footer"> porqué comprar con nosotros</h3>
+    
+    <section class="flex">
+
+        <figure>
+            <img class="flex__imagen" src="imagenes/FrontEndStore_inicio/img/icono_2.png" alt="imgen de un logo ">
+            <h2 class="contenedor contenedor__titulo">El mejor precio </h2>
+            <p class="flex__parrafo">
+                Cras accumsan ipsum eu ex blandit, at congue lacus tempus.
+                Pellentesque condimentum nisi eu ante rhoncus vulputate.
+                Aliquam quis risus fringilla, ornare ante vitae, iaculis tellus.
+            </p>
+        </figure>
+        <figure>
+            <img class="flex__imagen" src="imagenes/FrontEndStore_inicio/img/icono_3.png" alt="imgen de un logo ">
+            <h2 class="contenedor contenedor__titulo">para desarroladores</h2>
+            <p class="flex__parrafo">
+                Proin ornare nisl a augue tincidunt, quis eleifend dui ornare.
+                Vivamus et magna at quam scelerisque semper.
+                Suspendisse in orci fermentum, consequat ligula ac, sagittis ipsum.
+            </p>
+        </figure>
+        <figure>
+            <img class="flex__imagen" src="imagenes/FrontEndStore_inicio/img/icono_4.png" alt="imgen de un logo ">
+            <h2 class="contenedor contenedor__titulo">envió gratis</h2>
+            <p class="flex__parrafo">
+                Sed posuere leo a fermentum tincidunt.
+                Vestibulum ullamcorper metus vitae mauris sagittis finibus.
+                Nulla pharetra dui ac ante dapibus, ac porttitor orci tincidunt.
+            </p>
+        </figure>
+        <figure>
+            <img class="flex__imagen" src="imagenes/FrontEndStore_inicio/img/icono_1.png" alt="imgen de un logo ">
+            <h2 class="contenedor contenedor__titulo">la mejor calidad</h2>
+            <p class="flex__parrafo">
+                Donec gravida massa at neque malesuada, ut tempus nisi sollicitudin.
+                Integer a lorem at magna suscipit ultrices.
+            </p>
+        </figure>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__parrafo">
+            Prueba de la implementacion de un pie de pagina.
+        </p>
+    </footer>
+</body>
+</html>
