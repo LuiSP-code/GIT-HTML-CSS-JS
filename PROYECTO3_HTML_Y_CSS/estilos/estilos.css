@@ -365,3 +365,6 @@ a{
 .campo_textarea{
     height: 20rem;
 }
+.ch-1{
+    color: var(--negro-claro);
+}
