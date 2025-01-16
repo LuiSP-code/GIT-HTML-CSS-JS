@@ -3,170 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fronted store</title>
-    
-    <!--Hojas de estilos y normalize -->
-<link rel="stylesheet" href="estilos_y_normalizacion/normalize.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-<link rel="preload" href="estilos_y_normalizacion/normalize.css" as="style">
-<link rel="stylesheet" href="estilos_y_normalizacion/estilos.css">
-
-</head> 
+    <title>FrontendStore</title>
+    <link rel="preload" href="estilos_y_normalizacion/normalize.css" as="style">
+    <link rel="stylesheet" href="estilos_y_normalizacion/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="estilos_y_normalizacion/estilos.css" as="style">
+    <link rel="stylesheet" href="estilos_y_normalizacion/estilos.css">
+</head>
 <body>
     <header class="header">
         <a href="index.html">
-            <img class="header__logo" src="imagenes/FrontEndStore_inicio/img/logo.png" alt="Logo">
+            <img class="header__logo" src="imagenes/FrontEndStore_inicio/img/logo.png" alt="Logo de una tienda llamada FrontedStore">
         </a>
     </header>
-
-    <div class="fondo-navegacion">
-        <nav class="navegacion">
-            <a class="navegacion__elemento navegacion__elemento--activo" href="index.html">Tienda</a>
-            <a class="navegacion__elemento " href="Nosotros.html">Nosotros</a>
-        </nav>
-    </div>
-
-    <main class="contenedor">
-        <h1 class="contenedor__titulo">Nuestros productos</h1>
-
-        <div class="grid">
+    <nav class="navegación">
+        <a class="navegación__enlace" href="tienda.html">Tienda</a></li>
+        <a class="navegación__enlace" href="nosotros.html">Nosotros</a></li>
+    </nav>
+    <main class="contenedor ">
+        <h2>Nuestros productos</h2>
+        <section class="grid">
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/1.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">VueJS</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/1.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">Vuejs</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/2.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">AngularJS</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/2.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">AngularJS</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/3.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">React</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <a href="tienda.html">
+                        <img src="imagenes/FrontEndStore_inicio/img/3.jpg">
+                        <div class="producto__contenido">
+                            <p class="producto__nombre">ReactJS</p>
+                            <p class="producto__precio">$25</p>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/4.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">Redux</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/4.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">Redux</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/5.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">NodeJS</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/5.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">NodeJS</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/6.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">SASS</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/6.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">Sass</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/7.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">HTML5</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/7.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">Html-5</h>
+                    <p class="producto__precio">$25</p>
+                </div>
+            </div><div class="producto">
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/8.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">Github</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/8.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">Github</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/9.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">Bulma</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/9.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">Bulma</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/10.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">TypeScript</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/10.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">TypeScript</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/11.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">Drupal</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/11.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">Drupal</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/12.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">JavaScript</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/12.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">JavaScript</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/13.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">GraphQL</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
             <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/13.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">GraphQL</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
+                <div class="producto__imagen">
+                    <img src="imagenes/FrontEndStore_inicio/img/14.jpg">
+                </div>
+                <div class="producto__contenido">
+                    <p class="producto__nombre">WordPress</h>
+                    <p class="producto__precio">$25</p>
+                </div>
             </div>
-            <div class="producto">
-                <a href="Producto.html">
-                    <img class="producto__imagen" src="imagenes/FrontEndStore_inicio/img/14.jpg" alt="imagen camisa">
-                    <div class="producto__contenido">
-                        <p class="producto__nombre">WordPress</p>
-                        <p class="producto__precio">$25</p>
-                    </div> 
-                </a>
-            </div>
-
-            <div class="grafico graficos--camisa"></div>
-            <div class="grafico graficos--node"></div>
-
-        </div>
+            <div class="gráfico_1"></div>
+            <div class="gráfico_2"></div>
+        </section>
     </main>
-
     <footer class="footer">
-        <p class="footer__parrafo">Prueba de la implementacion de un pie de pagina.</p>
+        <p class=".footer__contenido">FrontendStore todos los derechos reservados.</p>
     </footer>
 </body>
 </html>

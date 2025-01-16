@@ -3,64 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fronted store</title>
-    
-    <!--Hojas de estilos y normalize -->
-<link rel="stylesheet" href="estilos_y_normalizacion/normalize.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-<link rel="preload" href="estilos_y_normalizacion/normalize.css" as="style">
-<link rel="stylesheet" href="estilos_y_normalizacion/estilos.css">
-
-</head> 
+    <title>FrontendStore</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/css.css" as="style">
+    <link rel="stylesheet" href="css/css.css">
+</head>
 <body>
     <header class="header">
         <a href="index.html">
-            <img class="header__logo" src="imagenes/FrontEndStore_inicio/img/logo.png" alt="Logo">
+            <img class="header__logo" src="img/logo.png" alt="Logo de una tienda llamada FrontedStore">
         </a>
     </header>
-
-    <div class="fondo-navegacion">
-        <nav class="navegacion">
-            <a class="navegacion__elemento " href="index.html">Tienda</a>
-            <a class="navegacion__elemento " href="Nosotros.html">Nosotros</a>
-        </nav>
-    </div>
-
+    <nav class="navegación">
+        <a class="navegación__enlace navegación__enlace--activo" href="tienda.html">Tienda</a></li>
+        <a class="navegación__enlace " href="nosotros.html">Nosotros</a></li>
+    </nav>
+<body>
     <main class="contenedor">
-        <h1 class="contenedor__titulo">React JS</h1>
-
-        <section class="compra">
-
-            <img class="compra__imagenes" src="imagenes/FrontEndStore_inicio/img/3.jpg" alt="Imagen de una camisa con el logo de react">
-
-            <div class="descripcion__producto">
-                <p class="descripcion__producto--parrafo">
-                    In diam turpis, ornare id efficitur eget, mollis nec quam. 
-                    Integer in scelerisque augue, quis molestie velit.
-                    Quisque turpis nisi, pellentesque eu maximus eget, ornare 
-                    vel quam. Proin eget metus at velit dapibus vehicula ut non nibh. 
-                    Aenean in maximus odio. Quisque hendrerit porta dolor non rhoncus. 
-                    Praesent ut elit. Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc at auctor odio.
-                </p>
-                <form class="producto__informacion">
-                    <select class="producto__talla" type="text" >
-                        <option disabled selected>--Seleccionar talla--</option>
-                        <option>Chico</option>
-                        <option>Mediano</option>
+        <h1>React JS</h1>
+        <section class="camisa">
+            <img src="img/3.jpg">
+            <div class="camisa__contenido">
+                <p>Donec vel fermentum erat. Mauris in tincidunt elit. Aliquam velit magna, efficitur nec diam in, cursus suscipit dolor. Maecenas pulvinar elementum porta. Suspendisse aliquet sem vel ex congue, et cursus felis faucibus. Curabitur mattis lobortis dui. Vestibulum fermentum ipsum tempor massa commodo pellentesque. Morbi facilisis pretium odio id finibus. Nunc hendrerit lacus eget est aliquet, volutpat vehicula urna accumsan. </p>
+                <form class="formulario">
+                    <select class="formulario__campo" name="Talla" id="1">
+                        <option selected disabled>--Seleccionar Talla--</option>
+                        <option>Chica</option>
+                        <option>Medina</option>
                         <option>Grande</option>
-                    </select> 
-                    <input class="producto__cantidad" type="number" min="0" max="20">
-                    <input class="boton__agregar" type="submit" value="Agregar al carrito">
+                    </select>
+                    <input class="formulario__campo" type="number" min="0" max="10" placeholder="--Pz.--">
+                    <input class="formulario__enviar" type="submit" value="Agregar al carrito">
                 </form>
+
             </div>
         </section>
     </main>
-
     <footer class="footer">
-        <p class="footer__parrafo">Prueba de la implementacion de un pie de pagina.</p>
+        <p class="footer__contenido">FrontendStore todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>

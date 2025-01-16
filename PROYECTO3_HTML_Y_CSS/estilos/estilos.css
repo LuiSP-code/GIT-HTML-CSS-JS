@@ -82,7 +82,7 @@ a{
     display: inline-block;
 }
 /* Header */
-.webp .header{
+.webp_header{
     background-image: url("../imagen/banner.webp");
 }
 .nowebp .header{
